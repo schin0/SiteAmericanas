@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header */
+
+#contato {
+    width: 100%;
+    background-color: #b90000;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+#esquerda0, #direita0 {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+}
+
+.esquerda0, .direita0 {
+    font-size: 0.8em;
+    margin-right: 5px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.imgContato{
+    width: 50px;
+    height: 15px;
+}
+
+/* FIM Header */
+
+/* Seção de busca */
+
+#secaoBusca {
+    background-color: #FF0000;
+}
+
+#logoAmericanas {
+    width: 50vw;
+    height: 50vh;
+}
+
+/* FIM Seção de busca */
