@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header */
+
+#contato {
+    width: 100%;
+    background-color: #b90000;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+#esquerda0, #direita0 {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+}
+
+.esquerda0, .direita0 {
+    font-size: 0.8em;
+    margin-right: 5px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.imgContato{
+    width: 50px;
+    height: 15px;
+}
+
+/* FIM Header */
+
+/* Seção de busca */
+
+#secaoBusca, #secaoDepartamento {
+    padding-top: 2vh;
+    background-color: #FF0000;
+}
+
+#busca{
+    padding: 0px 10px;
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#lupa {
+    width: 30px;
+    height: 10px;
+}
+
+#cesta {
+    width: 60px;
+    height: 40px;
+}
+
+#logoAmericanas {
+    width: 25vw;
+    height: 8vh;
+}
+
+label {
+    color: white;
+}
+
+input {
+    width: 500px;
+}
+
+#carrinho {
+    display: flex;
+    justify-content: center;
+}
+
+/* FIM Seção de busca */
+
+/* Seção departamentos */
+
+#secaoDepartamento {
+    display: flex;
+}
+
+#departamento {
+    width: 100px;
+    display: flex;
+}
+
+#todosDepartamentos {
+    color: white;
+    box-shadow: white 1px 1px 1px inset;
+}
+
+#logoAmarelo {
+    width: 80px;
+    height: 60px;
+}
+
+#logoOferta {
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    height: 10vh;
+}
+
+#txtOferta {
+    color: #FF0000;
+}
+
+/* FIM Seção departamentos */
+
+/* Formas de pagamento / Segurança do site */
+
+#titulos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.formas {
+    color: #FF0000;
+}
+
+#pagamentos {
+    display: flex;
+    justify-content: space-between;
+}
+
+#divPagamento {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#segurancaDiv {
+    width: 40%;
+}
+
+#cartaoAmericanas {
+    width: 80px;
+    height: 50px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.cartoes {
+    margin-right: 5px;
+    width: 40px;
+    height: 25px;
+    border-radius: 4px;
+    -webkit-box-shadow: 1px 1px 2px 1px #000000;
+    box-shadow: 1px 1px 2px 1px #000000;
+}
+
+#celular {
+    width: 75px;
+    height: 25px;
+    -webkit-box-shadow: 1px 1px 2px 1px #000000;
+    box-shadow: 1px 1px 2px 1px #000000;
+}
+
+.seguranca {
+    margin-right: 5px;
+    width: 100px;
+    height: 35px;
+    border-radius: 4px;
+}
+
+#empresaSeg {
+    padding: 2vh 0vw 0vh 5vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* FIM Formas de pagamento / Segurança do site */
