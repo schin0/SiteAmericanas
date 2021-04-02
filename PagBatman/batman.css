@@ -120,6 +120,44 @@ input {
 
 /* FIM Seção departamentos */
 
+/* Seção Departamento Brinquedo */
+
+#departBrinquedo {
+    margin-left: 8px;
+    display: flex;
+    align-items: baseline;
+}
+
+#departBrinquedo h3 {
+    color: #424242;
+}
+
+#linkInicial {
+    color: #CCCCCC;
+}
+
+.redTitle {
+    color: #FF0000;
+}
+
+#codProd {
+    color: #666666;
+}
+
+/* FIM Seção Departamento Brinquedo */
+
+/* Seção Batman */
+
+#brinqBatman {
+    width: 250px;
+    height: 500px;
+}
+
+
+
+/* FIM Seção Batman */
+
+
 /* Formas de pagamento / Segurança do site */
 
 #titulos {
